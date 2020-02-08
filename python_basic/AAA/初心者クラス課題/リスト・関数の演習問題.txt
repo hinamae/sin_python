@@ -1,0 +1,33 @@
+課題１：
+(x-0.4)(x+0.3)(x+0.4)=
+(x*x-0.16)(x+0.3)=
+x*x*x + 0.3*x*x - 0.16x  -0.048
+
+
+# **********************************************
+課題１：
+　方程式：x*x*x + 0.3*x*x - 0.16x  -0.048 = 0 の解は
+　　　-1 <= (3個の解) <= 1.0
+　である。3個の解を小数点以下１桁で求めなさい。
+　ただし、プログラムはつぎを使いなさい。
+def ZeroCross3( 係数List, 範囲List ): # Coefficient
+  # 処理
+  return ans1, ans2, ans3
+
+ret1,re2,re3 = ZeroCross3( 係数List, 範囲List )
+print("解=( %4.1f, %4.1f, %4.1f) " %(ret1, ret2, ret3))
+
+
+
+#==============( Program )=======================
+def ZeroCross3( Para, range0 ): # Coefficient
+  ans1, ans2, ans3 = 0.0,  0.0,  0.0
+  # 処理
+  return ans1, ans2, ans3
+
+# x*x*x + 0.3*x*x - 0.16x  -0.048 = 0
+paranemter = [ 1.0, 0.3, -0.16, -0.048]
+range0 = [ -1.0, 1.0 ]
+ret1,re2,re3 = ZeroCross3( parameter, range0)
+print("解=( %4.1f, %4.1f, %4.1f) " %(ret1, ret2, ret3))
+# ==========================================================
